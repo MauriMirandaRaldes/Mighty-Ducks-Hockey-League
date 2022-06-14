@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body */
+body {
+    display: flex;
+    flex-direction: column;
+}
+.custombodyregistration {
+    min-height: 180vh;
+    background-color: rgb(170, 170, 170);
+}
+/* header */
+header {
+    padding: 5rem;
+    background-image: url(../IMG/nueva\ york.jpeg);
+}
+.customh1 {
+    color: white;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+}
+.customh3 {
+    font: 1.5rem;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    background-color: rgba(220, 20, 60, 0);
+    display: flex;
+    justify-content: end;
+    width: 93vw;
+    position: absolute;
+    top: 1rem;
+}
+nav a {
+    padding: 0.3rem;
+    color: white;
+    border: 0.2rem ridge rgb(160, 14, 14);
+    background-color: red;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: rgb(223, 139, 124);
+}
+
+.divh2 {
+    padding: 2rem;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divh3 {
+    padding: 2rem;
+    background-color: rgb(170, 170, 170);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+/* main */
+.mainindex {
+    height: 63.1vh;
+    background-color: rgb(170, 170, 170);
+}
+.mainindex2 {
+    height: 100%;
+    background-color: rgb(170, 170, 170);
+    display: flex;
+    flex-direction: column;
+}
+/* imagenes */
+img {
+    width: 200px;
+    height: 200px;
+}
+.divimg1 {
+    background-color: black;
+    border: 0.5rem ridge rgb(255, 123, 0);
+    position: absolute;
+    top: 1rem;
+    left: 3.5rem;
+}
+
+/* tablas */
+.divp {
+    padding: 2rem 2.5rem;
+    font-size: 1.3rem;
+    background-color: rgb(170, 170, 170);
+}
+.divp2 {
+    width: 100%;
+    background-color: rgb(170, 170, 170);
+    display: flex;
+    justify-content: space-between;
+}
+.divp3 {
+    text-decoration: underline;
+}
+.gamelocations {
+    padding-bottom: 2rem;
+}
+.customdivmaps {
+    width: 100%;
+    background-color: rgb(160, 160, 160);
+}
+.custompmaps {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.customdiv3maps {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+iframe {
+    width: 250px;
+    height: 250px;
+    border: 0.5rem solid goldenrod;
+}
+iframe:hover {
+    border: 0.5rem solid tomato;
+}
+table {
+    font-size: 1.3rem;
+    background-color: rgb(170, 170, 170);
+    border: 1px solid black;
+    border: none;
+}
+th {
+    width: 100vw;
+}
+.customtd {
+    padding-left: 7.5rem;
+}
+.customtd2 {
+    padding-left: 8rem;
+}
+.customtd3 {
+    padding-left: 10rem;
+}
+.customtd4 {
+    padding-left: 8rem;
+}
+.customsection {
+    padding-top: 5rem;
+    font-size: 1.3rem;
+    height: 50vh;
+    width: 100vw;
+    background-color: rgb(170, 170, 170);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.customsection2 {
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: 1.3rem;
+    height: 50vh;
+    width: 100vw;
+    background-color: rgb(170, 170, 170);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.customsection3 {
+    padding: 1rem 3rem;
+    font-size: 1.1rem;
+    background-color: rgb(170, 170, 170);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.customh3rules {
+    padding-bottom: 1rem;
+}
+.psangria {
+    text-indent: 1.5rem;
+}
+.customdivparrafo {
+    font-size: 1.3rem;
+    height: 59.3vh;
+    background-color: rgb(170, 170, 170);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.customspan {
+    font-weight: bold;
+}
+.customul {
+    padding-left: 3rem;
+}
+/* formularios */  
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(170, 170, 170);
+}
+
+fieldset {
+    border: none;
+}
+.customfieldset {
+    background-color: rgb(170, 170, 170);
+    width: 100%;
+    display: flex;
+    font-size: 1.3rem;
+    padding-left: 20rem;
+}
+.customfieldset2 {
+    background-color: rgb(170, 170, 170);
+    width: 100%;
+    padding-left: 20rem;
+    font-size: 1.3rem;
+}
+.custominput {
+    width: 28rem;
+}
+
+
+.customlastname {
+    width: 8.4rem;
+}
+
+.customfieldset3 {
+    background-color: rgb(170, 170, 170);
+    display: flex;
+    width: 100%;
+    padding-left: 20rem;
+    font-size: 1.3rem;
+}
+.custominput2 {
+    width: 17.5rem;
+}
+
+
+.customdivform {
+    display: flex;
+    padding-left: 6rem;
+}
+.customdivform2 {
+    padding-left: 0.3rem;
+}
+.customdivform3 {
+    background-color: rgb(170, 170, 170);
+    padding-left: 20rem;
+    height: 3rem;
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.3rem;
+}
+
+
+.customdivform4 {
+    background-color: rgb(170, 170, 170);
+    padding-left: 20rem;
+    height: 3rem;
+    font-size: 1.3rem;
+}
+
+.customdivform5 {
+    padding-left: 20rem;
+    height: 2rem;
+    font-size: 1.3rem;
+}
+
+.customdivform6 {
+    background-color: rgb(170, 170, 170);
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20rem;
+    font-size: 1.3rem;
+}
+
+.customdivform7 {
+    background-color: rgb(170, 170, 170);
+    padding-left: 20rem;
+    height: 3rem;
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.3rem;
+}
+
+.customdivform8 {
+    background-color: rgb(170, 170, 170);
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20rem;
+    font-size: 1.3rem;
+}
+
+.customdivform9 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 48.5rem;
+    font-size: 1.3rem;
+}
+
+
+.customdivform10 {
+    font-size: 1.2rem;
+    background-color: rgb(170, 170, 170);
+    height: 14rem;
+    width: 72rem;
+    padding-left: 20rem;
+}
+
+
+.customspanform {
+    font-weight: bold;
+}
+
+
+.customdivform11 {
+    padding-left: 20rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+.customdivform12 {
+    background-color: rgb(170, 170, 170);
+    padding-left: 20rem;
+    font-size: 1.2rem;
+}
+
+
+.customdivform13 {
+    padding-left: 20rem;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.customfieldset4 {
+    background-color: rgb(170, 170, 170);
+    display: flex;
+    padding-left: 20rem;
+    font-size: 1.3rem;
+}
+
+
+.customsubmit {
+    border: 1px solid rgb(85, 85, 85);
+    background-color: white;
+}
+.customsubmit:hover {
+    background-color: goldenrod;
+}
+/* footer */
+.customfooter {
+    padding-right: 0.5rem;
+    color: white;
+    background-color: rgb(70, 70, 70);
+    display: flex;
+    justify-content: end;
+}
